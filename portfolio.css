@@ -1,0 +1,80 @@
+body {
+  font-family: Avenir;
+}
+.wrapper {
+    max-width: 500%;
+  background-color: rgb(250, 250, 250);
+  width: 800px;
+  margin: 0 auto;
+  border: 40px solid black;
+  border-radius: 20px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 34px;
+}
+
+li {
+  list-style-type: none;
+}
+.navlink {
+  display: flex;
+}
+ul li {
+  padding-left: 14px;
+}
+button {
+  padding: 8px 14px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+}
+.photo {
+  width: 180px;
+  border-radius: 120px;
+}
+.img-style {
+  height: 320px;
+  background-image: radial-gradient(red, cyan, rgb(145, 145, 233));
+  border-radius: 120px;
+}
+.about-me {
+  display: flex;
+  margin: 0 34px;
+  padding-top: 0;
+}
+.aboutme-text {
+  padding-top: 40px;
+  padding-left: 34px;
+}
+.aboutme-text p {
+  width: 500px;
+}
+.journey {
+  display: flex;
+  margin: 34px;
+  padding-bottom: 20px;
+}
+.journey span li {
+  font-family: avenir bold;
+  margin: 4px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  padding: 2px;
+  font-size: 12px;
+  
+}
+.my-journey {
+  width: 400px;
+}
+a {
+  color: black;
+}
+.skills {
+  margin-left: px;
+  display: flex;
+  padding-top: 70px;
+}
