@@ -2,12 +2,19 @@ body {
   font-family: Avenir;
 }
 .wrapper {
-    max-width: 500%;
+  max-width: 500%;
   background-color: rgb(250, 250, 250);
   width: 800px;
   margin: 0 auto;
-  border: 40px solid black;
-  border-radius: 20px;
+  border-radius: 14px;
+}
+.overall {
+  background-image: radial-gradient(red, cyan, rgb(228, 48, 108));
+  width: 860px;
+  padding: 20px 10px;
+
+  margin: auto;
+  border-radius: 24px;
 }
 .navigation {
   display: flex;
@@ -65,7 +72,6 @@ button {
   border-radius: 4px;
   padding: 2px;
   font-size: 12px;
-  
 }
 .my-journey {
   width: 400px;
@@ -74,7 +80,7 @@ a {
   color: black;
 }
 .skills {
-  margin-left: px;
+  margin-left: 4px;
   display: flex;
   padding-top: 70px;
 }
